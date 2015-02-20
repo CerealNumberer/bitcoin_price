@@ -16,3 +16,7 @@ Raspberry pi pin 13 is the red LED or GPIO 23
 Make sure to use BOARD pin layout. 
 If you need to change to GPIO.BCM for forks this is important to note.
 
+LED Connection:
+Pin 6 should be ground. 
+From ground, you need two resistors. I used 150 OHM. The resistor should connect to each LED short leg.
+The long leg of the LED's should be tied to the output pins 11 or 13 on the pi.
